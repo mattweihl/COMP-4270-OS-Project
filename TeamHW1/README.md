@@ -8,12 +8,15 @@
 * Matthew Weihl
 
 # Requirements
-Java (Java "bin" folder must be in your PATH).
+JRE, JDK (Javac/ Java must be in your path.)
+Windows (Does not not currently work on Linux/ OS X)
 
 # To Run
-1) Open Command Prompt, and run the following commands (without quotes):
+1) Compile source code. Run the command "javac *.java" in Command Prompt.
+
+2) Open Command Prompt, and run the following commands (without quotes):
 	* "start rmiregistry"
 	* "java RemoteFileObjectImpl"
 
-2) Open separate instance of Command Prompt, and run the following command (without quotes):
+3) Open separate instance of Command Prompt, and run the following command (without quotes):
 	* "java RemoteFileClient"
